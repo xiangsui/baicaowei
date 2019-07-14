@@ -1,0 +1,300 @@
+main {
+  height: 600px;
+  border: 1px solid #ccc;
+}
+
+main .xiang {
+  width: 1000px;
+  border-right: 1px solid #ccc;
+  margin-top: 20px;
+  height: 550px;
+}
+
+main .xiang .detail {
+  position: relative;
+}
+
+main .xiang .detail .fdj {
+  position: relative;
+  width: 418px;
+  height: 418px;
+  border: 1px solid #ccc;
+}
+
+main .xiang .detail .fdj img {
+  width: 100%;
+  height: 100%;
+}
+
+main .xiang .detail .fdj span {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+}
+
+main .xiang .detail .fdj .mask {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+main .xiang .detail .rightt {
+  margin-left: 20px;
+  border: 5px solid black;
+  width: calc(200px * 2);
+  height: calc(200px * 2);
+  background: url("../img/productpage/detail_1.jpg");
+  background-size: calc(418px * 2) calc(418px * 2);
+  position: absolute;
+  left: 418px;
+  top: 0px;
+  display: none;
+}
+
+main .xiang .detail ul {
+  padding-top: 20px;
+}
+
+main .xiang .detail ul li {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+  margin-left: 16px;
+}
+
+main .xiang .detail ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+main .xiang .list {
+  margin-right: 20px;
+}
+
+main .xiang .list .list_1 {
+  width: 510px;
+  height: 40px;
+}
+
+main .xiang .list .list_1 h3 {
+  font-size: 16px;
+}
+
+main .xiang .list .list_1 p {
+  font-size: 14px;
+  color: #FF0036;
+}
+
+main .xiang .list .list_2 {
+  width: 510px;
+  height: 30px;
+  margin-top: 10px;
+  background: #ccc;
+  line-height: 30px;
+}
+
+main .xiang .list .list_2 dt {
+  width: 69px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #999;
+}
+
+main .xiang .list .list_2 dd {
+  color: #FF0036;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+main .xiang .list .list_3 {
+  width: 510px;
+  height: 30px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+main .xiang .list .list_3 dt {
+  width: 50px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #999;
+}
+
+main .xiang .list .list_3 dd {
+  font-size: 14px;
+  font-family: normal;
+}
+
+main .xiang .list .list_4 {
+  width: 510px;
+  height: 50px;
+  margin-top: 10px;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  line-height: 35px;
+}
+
+main .xiang .list .list_4 li {
+  margin: 8px 0px;
+  width: 250px;
+  font-size: 14px;
+  text-align: center;
+  color: #838383;
+}
+
+main .xiang .list .list_4 .z1 {
+  height: 30px;
+  border-right: 1px dotted #838383;
+}
+
+main .xiang .list .list_4 .z1 span {
+  color: #FF0036;
+}
+
+main .xiang .list .list_4 .r1 {
+  height: 30px;
+}
+
+main .xiang .list .list_4 .r1 span {
+  color: #280;
+}
+
+main .xiang .list .list_5 {
+  width: 510px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+main .xiang .list .list_5 .shi {
+  width: 66px;
+  font-size: 12px;
+  color: #838383;
+}
+
+main .xiang .list .list_5 ul {
+  width: 420px;
+}
+
+main .xiang .list .list_5 ul li {
+  width: 150px;
+  height: 30px;
+  font-size: 12px;
+  color: #838383;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+main .xiang .list .list_5 ul li a {
+  display: block;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #000;
+}
+
+main .xiang .list .list_5 ul li a:hover {
+  border: 2px solid #FF0036;
+}
+
+main .xiang .list .list_6 {
+  width: 510px;
+  height: 40px;
+  margin-top: 10px;
+  line-height: 40px;
+}
+
+main .xiang .list .list_6 .l {
+  font-style: normal;
+}
+
+main .xiang .list .list_6 i {
+  width: 66px;
+  font-size: 12px;
+  color: #838383;
+}
+
+main .xiang .list .list_6 input {
+  width: 43px;
+  height: 40px;
+}
+
+main .xiang .list .list_6 .jj {
+  width: 20px;
+  height: 40px;
+  margin: 0px 10px;
+}
+
+main .xiang .list .list_6 .jj span {
+  width: 18px;
+  height: 18px;
+  display: block;
+  border: 1px solid #ccc;
+  margin-bottom: 3px;
+  text-align: center;
+  line-height: 18px;
+}
+
+main .xiang .list .list_6 em {
+  font-size: 12px;
+  color: #838383;
+}
+
+main .xiang .list .list_7 {
+  width: 510px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+main .xiang .list .list_7 a {
+  display: block;
+  margin-left: 66px;
+  margin-right: 10px;
+  width: 180px;
+  height: 40px;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 40px;
+  background: #ffeded;
+  color: #FF0036;
+}
+
+main .xiang .list .list_7 .iconfont {
+  margin: 0px;
+  background: #FF0036;
+  color: #ffeded;
+}
+
+main .xiang .list .list_8 {
+  width: 510px;
+  height: 60px;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+main .xiang .list .list_8 h5 {
+  color: #838383;
+  margin: 0;
+}
+
+main .xiang .list .list_8 ul {
+  width: 360px;
+  padding-left: 10px;
+}
+
+main .xiang .list .list_8 ul li {
+  padding-right: 30px;
+  height: 20px;
+  padding-bottom: 15px;
+}
+
+main .xiang .list .list_8 em {
+  font-style: normal;
+}
